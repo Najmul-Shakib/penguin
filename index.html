@@ -1,13 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Penguin shopping</title>
+    <!--font-->
+    <style>
+        .font-bebas-neue {
+            font-family: "Bebas Neue", sans-serif;
+
+        }
+
+        .font-roboto {
+            font-family: "Roboto", sans-serif;
+
+        }
+    </style>
+
+    <!--tailwind-->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!--fontawesome-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
 </head>
-<!--font-->
+
+
 
 <body>
-    
+    <header class="bg-[#FFFBF0]">
+        <nav>
+            <div class="flex items-center justify-around">
+                <div><img src="bg/logo.png" alt=""></div>
+
+
+                <div><i class="fa-solid fa-bars"></i></div>
+
+            </div>
+
+        </nav>
+        <div class="ml-20 flex items-center justify-around">
+            <div>
+                <h1 class="font-bebas-neue"><span class="text-5xl font-bold text-[#FABE4C] ">BE THE PENGUINS</span> <br>
+                    <span class="text-5xl font-bold text-[363958] ">OF WINTER</span>
+                </h1>
+                <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur <br>
+                    adipisicing elit. Dolorum, nisi!</p>
+                <button class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded p-1 mt-2"> <i
+                        class="fa-solid fa-cart-shopping"></i>BUY NOW</button>
+            </div>
+            <div>
+                <img src="image/model.png" alt="">
+            </div>
+        </div>
+    </header>
+
 </body>
+
 </html>
